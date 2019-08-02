@@ -114,4 +114,7 @@ A quick Google search only found the following so far (please add if you find mo
 
 * https://github.com/devaos/sublime-remote/blob/master/remote/sublime_api.py
 * https://github.com/spywhere/Javatar/blob/master/tests/stubs/sublime_api.py
-
+* https://github.com/limetext/lime - 
+	"Open source API-compatible alternative to the text editor Sublime Text". 
+	Written in Go.
+* https://github.com/xi-editor/xi-editor

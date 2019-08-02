@@ -54,3 +54,8 @@ def check_missing_mock_items():
     if not something_is_missing:
         print("** All attributes in sublime_api appears to be present in mock_api - GREAT! **")
 
+
+def create_updated_mock_api_module():
+    pass
+
+
