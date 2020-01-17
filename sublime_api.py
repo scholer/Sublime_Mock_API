@@ -15,11 +15,3 @@ from sublime_mock_api.mock_api import *
 
 print("sublime_api module imported (mocked version).")
 print("version():", version())
-
-
-
-
-
-
-
-

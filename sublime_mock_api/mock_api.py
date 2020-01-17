@@ -59,12 +59,12 @@ VERBOSE_PRINT_CALLS = True
 VERBOSE_PRINT_FILE = sys.stderr
 
 
-@print_call_info
 def print_call_info(func):
     """" Decorator that prints call info. """
     if not ENABLE_PRINT_CALL_WRAPPING:
         return func
-    @wraps
+
+    @wraps(func)
     def wrapped(*args, **kwargs):
         if VERBOSE_PRINT_CALLS:
             funcname = inspect.currentframe().f_code.co_name  # alternatively inspect.stack()[0][3]
